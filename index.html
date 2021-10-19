@@ -1,0 +1,97 @@
+<!-- <audio data-key="74" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav"></audio>
+<audio data-key="66" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"></audio>
+<audio data-key="86" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"></audio>
+<audio data-key="72" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"></audio>
+<audio data-key="71" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav"></audio>
+<audio data-key="70" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-low.wav"></audio>
+<audio data-key="69" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/crash.wav"></audio>
+<audio data-key="82" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/ride.wav"></audio>
+<audio data-key="73" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-open.wav"></audio>
+<audio data-key="75" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-close.wav"></audio> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <script defer src="./main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="img-tobe">
+      <img id="drumkit" src="./img/drumkit.png" alt="A drum kit set" />
+
+      <div data-key="83" class="key snare">
+        <audio
+          id="snare-audio"
+          data-key="83"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav"
+        ></audio>
+        <kbd class="key">S</kbd>
+      </div>
+      <div data-key="72" class="key hi-hat-open">
+        <audio
+          data-key="72"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-open.wav"
+        ></audio>
+
+        <kbd class="key">H</kbd>
+      </div>
+      <div data-key="74" class="key hi-hat-closed">
+        <audio
+          data-key="74"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-close.wav"
+        ></audio>
+        <kbd class="key">J</kbd>
+      </div>
+      <div data-key="67" class="key crash">
+        <audio
+          data-key="67"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/crash.wav"
+        ></audio>
+        <kbd class="key">C</kbd>
+      </div>
+      <div data-key="84" class="key tom-1">
+        <audio
+          data-key="84"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"
+        ></audio>
+        <kbd class="key">T</kbd>
+      </div>
+      <div data-key="89" class="key tom-2">
+        <audio
+          data-key="89"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav"
+        ></audio>
+        <kbd class="key">Y</kbd>
+      </div>
+      <div data-key="82" class="key ride">
+        <audio
+          data-key="82"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/ride.wav"
+        ></audio>
+
+        <kbd class="key">R</kbd>
+      </div>
+      <div data-key="70" class="key floor">
+        <audio
+          data-key="70"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-low.wav"
+        ></audio>
+        <kbd class="key">F</kbd>
+      </div>
+      <div data-key="75" class="key kick">
+        <audio
+          data-key="75"
+          src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"
+        ></audio>
+        <kbd class="key">K</kbd>
+      </div>
+    </div>
+
+    <div class="kbd-input"></div>
+
+    <div class="menu"></div>
+  </body>
+</html>

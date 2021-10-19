@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+}
+
+.img-tobe {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 8px 8px;
+  white-space: nowrap;
+}
+.playing {
+  transform: scale(1.2);
+}
+
+.key {
+  transition: all ease-in-out 0.042s;
+}
+.snare {
+  position: relative;
+  right: 190px;
+  bottom: 47px;
+}
+
+.hi-hat-open {
+  position: relative;
+  right: 130px;
+  bottom: 150px;
+}
+.hi-hat-closed {
+  position: relative;
+  right: 90px;
+  bottom: 150px;
+}
+.crash {
+  position: relative;
+  right: 580px;
+  bottom: 230px;
+}
+
+.tom-1 {
+  position: relative;
+  right: 435px;
+  bottom: 120px;
+}
+
+.tom-2 {
+  position: relative;
+  right: 345px;
+  bottom: 120px;
+}
+
+.ride {
+  position: relative;
+  right: 590px;
+  bottom: 220px;
+}
+
+.floor {
+  position: relative;
+  right: 560px;
+  bottom: 30px;
+}
+
+.kick {
+  position: relative;
+  right: 470px;
+  bottom: -75px;
+}
